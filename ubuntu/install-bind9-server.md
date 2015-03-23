@@ -32,7 +32,7 @@ logging {
 };
 ```
 
-**提示：**日志文件的存储路径由`/etc/bind/named.conf.options`的`derectory配置项指定
+**提示：**日志文件的存储路径由`/etc/bind/named.conf.options`的`derectory`配置项指定
 
 递归查询配置：
 ------
