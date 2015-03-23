@@ -7,7 +7,7 @@ Ubuntu netbeans字体美化
 
 找到
 
-```netbeans_default_options="..."```
+```netbeans_default_options=...```
 
 在最后添加参数值
 
