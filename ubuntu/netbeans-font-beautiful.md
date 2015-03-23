@@ -6,6 +6,8 @@ Ubuntu netbeans字体美化
 ```vim /usr/local/netbeans-{version}/etc/netbeans.conf```
 
 找到  
+`netbeans_default_options="..."`
+
 在最后添加参数值
 
 ```-J-Dswing.aatext=true -J-Dawt.useSystemAAFontSettings=on```
