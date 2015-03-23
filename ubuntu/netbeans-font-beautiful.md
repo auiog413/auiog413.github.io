@@ -4,7 +4,7 @@ Ubuntu netbeans字体美化
 修改文件
 
 ```vim /usr/local/netbeans-{version}/etc/netbeans.conf```
-    
+
 找到
 
 ```netbeans_default_options="..."```
