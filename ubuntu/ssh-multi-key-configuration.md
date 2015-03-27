@@ -25,4 +25,4 @@ Host <hostname>
 更多配置
 ----
 
-更多的配置选项请参考`man ssh_config`
+更多的配置选项请参考[man ssh_config](http://man.he.net/man5/ssh_config)
