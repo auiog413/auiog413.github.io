@@ -36,3 +36,21 @@ alias log='cd /var/log'
 # 查看redis连接数
 alias redis-clients="netstat -na | grep 6379 | wc -l"
 
+alias free='free -h'
+
+alias df='df -h'
+
+alias du='du -h'
+
+alias find-d='find -type d -name '
+alias find-f='find -type f -name '
+
+alias wl='wc -l'
+
+alias pong='ping -c 10 '
+
+alias bash-alias='cd;source .bashrc;cd -;'
+
+libo(){
+        echo 找我干嘛？
+}
