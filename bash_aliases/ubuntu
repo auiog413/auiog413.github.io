@@ -1,0 +1,56 @@
+# 替代 Linux 命令 clear 的清屏命令
+alias clean='printf "\033c"'
+
+# 快速进入 nginx 虚拟主机配置文件目录
+alias nginxsites='cd /etc/nginx/sites-available'
+
+# 进入 nginx 日志目录
+alias nginxlog='cd /var/log/nginx'
+
+# 查看僵尸进程
+alias zombies="ps -A -ostat,ppid,pid,cmd | grep -e '^[Zz]'"
+
+alias phpini-fpm='sudo vim /etc/php5/fpm/php.ini'
+
+alias phpini-cli='sudo vim /etc/php5/cli/php.ini'
+
+# 编辑 hosts 文件
+alias hosts='sudo vim /etc/hosts'
+
+# ls -l 显示可读的文件体积
+alias llh='ll -h'
+
+# 设置 ls 命令格式
+alias lla='ls -alF'
+
+# nginx 快捷操作
+alias nginxtest='sudo nginx -t'
+alias nginxreload='sudo nginx -s reload'
+
+# 数据库快速连接
+alias mysqlroot='pass -c mysql/localhost;mysql -h 127.0.0.1 -u root -p'
+
+# 快速进入系统日志目录
+alias log='cd /var/log'
+
+# 查看redis连接数
+alias redis-clients="netstat -na | grep 6379 | wc -l"
+
+alias free='free -h'
+
+alias df='df -h'
+
+alias du='du -h'
+
+alias find-d='find -type d -name '
+alias find-f='find -type f -name '
+
+alias wl='wc -l'
+
+alias pong='ping -c 10 '
+
+alias bash-alias='cd;source .bashrc;cd -;'
+
+libo(){
+        echo 找我干嘛？
+}
